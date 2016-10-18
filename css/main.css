@@ -74,9 +74,7 @@ body {
 .appstore {
   background-image: url(/img/App_Store_135x40.svg);
   display: block;
-  text-indent: -9999px;
-  width: 135px;
-  height: 40px;
+  text-indent: -9999px; 
 }
 
 #playstore {
