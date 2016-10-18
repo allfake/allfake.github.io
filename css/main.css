@@ -71,7 +71,7 @@ body {
   padding-bottom: 5px;
 }
 
-#appstore {
+.appstore {
   background-image: url(/img/App_Store_135x40.svg);
   display: block;
   text-indent: -9999px;
