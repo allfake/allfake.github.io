@@ -161,10 +161,19 @@
       </div>
     </div> <!-- /container -->        
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">    
+    -->
 
+    <link rel="preload" href="css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/bootstrap.min.css"></noscript>
+
+    <link rel="preload" href="css/bootstrap-theme.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/bootstrap-theme.min.css"></noscript>
+
+    <link rel="preload" href="css/main.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/main.css"></noscript>
 
     <script async src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -173,6 +182,10 @@
     <script async src="js/vendor/bootstrap.min.js"></script>
 
     <script async src="js/main.js"></script>
+
+    <script async src="js/vendor/loadCSS.js"></script>
+    <script async src="js/vendor/cssrelpreload.js"></script>
+    <script async src="js/vendor/onloadCSS.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
