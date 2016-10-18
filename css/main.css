@@ -75,6 +75,7 @@ body {
   background-image: url(/img/App_Store_135x40.svg);
   display: block;
   text-indent: -9999px; 
+  background-repeat: no-repeat;
 }
 
 #playstore {
